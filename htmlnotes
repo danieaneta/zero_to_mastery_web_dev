@@ -1,0 +1,53 @@
+HTML Tags
+
+<h1> - Header Tag (h1-h6) (in <body> tag)
+<p> - paragraph tags. paragraphs shows up nicely. 
+	"lorem tab" for random paragraph 
+<b> - bold text but isn't really used anymore. 
+	<strong></strong> current bold
+<i> - italizied 
+	<em></em> currently italisized 
+<ol> - ordered list
+<ul> - unordered list 
+	can nest lists with tabbing 
+
+SELF CLOSING TAGS:
+<br> - break
+<hr> - horizontal line 
+<img> - add an image
+	<img src="www.imageurl.com" alt="alternative text instead of image" width="" height="">
+		src, alt, width, height are all attributes
+
+ANCHOR TAG
+<a href="newpage.html"></a> - links to a new page
+
+HTML FORMS
+	Query Strings - sending information/data to the backend 
+
+
+	<form>
+		First Name: <input type="text" name="firstname"><br>
+		Last Name: <input type="text" name="lastname"><br>
+		Email: <input type="email" name="email" required><br>
+		Password: <input type="password" name="password" min="5"><br>
+		Birthday: <input type="date" name="birthday"><br>
+		Gender: <br>
+			<input type="radio" name="gender">Male<br>
+			<input type="radio" name="gender">Female<br>
+			<input type="radio" name="gender">Other<br>
+		Pets: <br>
+			<input type="checkbox" name="cat">Cat<br>
+			<input type="checkbox" name="dog">Dog<br>
+		Cars: <br> 
+		<select>
+			<option value="volvo" name="volvo">Volvo</option>
+			<option value="volvo" name="audi">Audi</option>
+		</select><br>
+		<select multiple>
+			<option value="volvo">Volvo</option>
+			<option value="volvo">Audi</option>
+		</select><br>
+		<br>
+		<input type="submit" value="Register">
+		<input type="reset">
+	</form>
