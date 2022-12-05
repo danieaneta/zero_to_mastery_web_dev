@@ -1,0 +1,12 @@
+var str_firstNumber = prompt("Input First Number: ");
+var str_secondNumber = prompt("Input Second Number: ");
+var firstNumber = Number(str_firstNumber);
+var secondNumber = Number(str_secondNumber);
+var additionSum = firstNumber + secondNumber;
+var subtractionSum = firstNumber - secondNumber;
+var multiplicationSum = firstNumber * secondNumber;
+var divideSum = firstNumber / secondNumber;
+alert("Addition Output: " + additionSum);
+alert("Subtraction Output: " + subtractionSum);
+alert("Multiplication Output: " + multiplicationSum);
+alert("Division Output: " + divideSum);
