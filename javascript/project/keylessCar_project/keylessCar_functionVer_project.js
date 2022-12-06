@@ -15,11 +15,23 @@ var checkedAge = function checkDriverAge2(){
 checkedAge() 
 
 if (Number(age) < 18) {
-	alert("Sorry, you are too yound to drive this car. Powering off");
+	alert("Sorry, you are too young to drive this car. Powering off");
 } else if (Number(age) > 18) {
 	alert("Powering On. Enjoy the ride!");
 } else if (Number(age) === 18) {
 	alert("Congratulations on your first year of driving. Enjoy the ride!");
+}
+
+//BONUS: 
+
+function checkDriverAge(age) {
+	if (Number(age) < 18) {
+		console.log("Sorry, you are too young to drive this car. Powering off");
+	} else if (Number(age) > 18) {
+		console.log("Powering On. Enjoy the ride!");
+	} else if (Number(age) === 18) {
+		console.log("Congratulations on your first year of driving. Enjoy the ride!");
+	}
 }
 
 //1. Make the above code have a function called checkDriverAge(). Whenever you call this function, you will get prompted for age. Use Function Declaration to create this function.
