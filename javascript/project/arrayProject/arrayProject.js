@@ -24,12 +24,20 @@ you should have at the end:
 
 var array = ["Banana", "Apples", "Oranges", "Blueberries"];
 
-array.shift() 
+array.shift(); 
 
-array.sort() 
+array.sort(); 
 
-array.push("Kiwi")
+array.push("Kiwi");
 
-array.shift()
+array.shift();
+
+array.reverse();
+
+//BONUS
+
+var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+console.log(array2[1][1][0])
+
 
 
