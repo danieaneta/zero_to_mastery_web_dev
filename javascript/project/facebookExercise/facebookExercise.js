@@ -29,7 +29,7 @@ database = [
   }
 ]
 
-newsfeed = [
+newsFeed = [
   {
     username: "danie",
     timeline: "Blahblahblahhh",
