@@ -32,17 +32,19 @@ database = [
 newsfeed = [
   {
     username: "danie",
-    timeline: "timeline01",
+    timeline: "Blahblahblahhh",
   },
   {
     username: "joy",
-    timeline: "timeline02",
+    timeline: "Hellooooo",
   },
   {
     username: "al",
-    timeline: "timeline03",
+    timeline: "Hi",
   }
 ]
+
+//LOGIN SYSTEM
 
 var userNamePrompt = prompt("What's your username?");
 var passwordPrompt = prompt("What's your password?");
