@@ -20,7 +20,14 @@ database = [
   }
 ]
 
-var 
+//OR
+
+database = [
+  {
+    username: "danie",
+    password: "12345",
+  }
+]
 
 newsfeed = [
   {
