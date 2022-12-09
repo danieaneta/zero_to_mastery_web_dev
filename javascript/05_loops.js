@@ -25,6 +25,6 @@ for (let i = 0; i =< 5; i++) {
   
 // takes a number and maps it to the range based on the remainder when you divide that number. 
 // for odd numbers between 0-5 divided by 2, anything landinging on 0 would be odd and anything landing on 1 would be even. 
-// this means, 0 (1,3,5) and 1 (2,4) 
+// this means, 0 (2,4) and 1 (1,3,5) 
   
 //if modulo 2 were a clock, there would only be 2 parameters which would be 0 or 1. 
